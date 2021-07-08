@@ -1,0 +1,29 @@
+Today I Learned(21.07.07)
+오픈소스아카데미 WEB 과정 HTML+CSS(수코딩)
+
+1. 텍스트 강조 태그
+	<strong>: Important text
+	<em>: 강조
+	
+	의미상 "반드시 전달해야 한다"는 의미가 있는가? 아니면 그냥 느낌적으로만 강조인가?의 차이
+	서로 중첩 사용 가능, 시각적인 효과는 같지만 의미적인 면이 부가
+	
+	<b>: bold
+	<i>: italic
+	이 둘은 외형만 바꿀 뿐, 의미는 없음
+	
+2. 목록 태그
+	<ul>: Unordered list
+	<ol>: Ordered list, type 속성으로 번호의 종류 바꿀 수 있음(1, A, a, I, i)
+	<li>: list item
+	
+	<dl>: definition list
+	<dt>: definition title
+	<dd>: definition data
+	제목과 그에 대한 설명이 있을 때 사용
+	
+3. CSS 기본
+	-내부 스타일 시트
+	-외부 스타일 시트
+	-인라인
+		
