@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>TIL 210706</title>
+		<link href="./tilstyle.css" rel="stylesheet"> 
+	<body>
+		<h1>Today I Learned(21.07.06)</h1>
+		<h2>오픈소스아카데미 Git 교과서<br>(git.jiny.dev)</h2>
+		<dl>
+		
+			<dt>깃 저장소 생성</dt>
+			<dd>$git init</dd>
+
+			<dt>원격 저장소와 연결</dt>
+			<dd>
+			$git remote add &lt;remote&gt; &lt;repository&gt;<br>
+			$git remote -v<br>
+			$git remote rm &lt;remote&gt;<br>
+			
+			
+
+			$git push -u <remote> <branch><br>
+			$git pull <remote> <branch><br>
+				</dd>
+
+				<dt>commit과 스테이지 영역의 개념</dt>
+				<dd>
+				$git add &lt;file&gt;
+				$git commit
+				$git status
+				$git log
+				</dd>
+
+				<dt>저장소 복제 및 수정</dt>
+				<dd>
+				$git clone &lt;repository&gt; &lt;directory&gt;
+				</dd>
+
+				<dt>브랜치 생성 및 병합</dt>
+				<dd>
+				$git branch &lt;branch&gt;
+				$git branch -v
+				$git checkout &lt;branch&gt;
+				$git merge &lt;branch&gt;
+				</dd>
+	
+				<dt>리셋/리버트</dt>
+				<dd>
+				$git reset &lt;commit ID&gt;
+				$git revert &lt;comit ID&gt;
+				</dd>
+
+
+				<p>★리셋은 로컬 저장소에서만 해라</p>
+
+
+	</body>
+</html>
