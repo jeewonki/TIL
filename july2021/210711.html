@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>TIL 210711</title>
+		<link href="../tilstyle.css" rel="stylesheet"> 
+	<body>
+		<h1>Today I Learned(21.07.11)</h1>
+		<h2>오픈소스아카데미 WEB 과정 HTML+CSS(수코딩)</h2>
+		<h3>텍스트 관련 CSS 속성</h3>
+		<dl>
+			<dt>font-size</dt>
+			<dd>
+				크기 단위
+				<dl>
+					<dt>px</dt>
+					<dd>
+						px는 웹에서 가장 기본적인 크기 단위<br>
+						화면을 구성하는 1개의 점이 1px
+					</dd>
+					<dt>rem(root em)</dt>
+					<dd>
+						최상의 html 태그의 기본값의 배수<br>
+						html 태그의 폰트 크기가 스타일 시트에서 바뀌면, 이것도 바뀜
+					</dd>
+					<dt>em</dt>
+					<dd>
+						부모 태그의 폰트 크기의 배수<br>
+						ex) body 태그 안쪽에 h1과 p태그가 있다<br>
+						h1과 p는 body의 자식 태그이므로, body 태그의 폰트 크기의 몇 배
+					</dd>
+					<dt>vw, vh</dt>
+					<dd>
+						뷰포트 관련 폰트 크기로, vw는 화면 가로 크기의, vh는 화면 세로 크기의 1/100<br>
+						브라우저 창의 크기에 따라 폰트 크기가 달라짐
+					</dd>
+				</dl>
+			</dd>
+			<dt>Color</dt>
+			<dd>
+				<p>p{color:green;}</p>
+				
+				<p>색상을 표현하는 세 가지 방법</p>
+				<ol>
+					<li>키워드: 색상의 영문 이름을 값의 키워드로 사용</li>
+					<li>RGB: rgb(r, g, b)</li>
+					<li>
+						HEX(#RRGGBB)
+						<p>
+							여섯 자리의 16진수<br>
+							두 자리씩 R, G, B를 나타냄
+							ex) #F5DF4D=rgb(245,223,77)
+						</p>
+					</li>
+				</ol>
+			</dd>
+			<dt>font-family</dt>
+			<dd>
+				font-family:[글꼴], [글꼴유형];<br>
+				글꼴유형은 generic family로, serif, sans-serif처럼 글꼴의 큰 분류를 나타냄<br>
+				
+			</dd>
+			<dt>Font-weight</dt>
+			<dd>
+				굵기 단위<br>
+				100~900: 폰트마다 모두 있을 수도 있고, 없을 수도 있음<br>
+				normal, bold, bolder, lighter
+			</dd>
+			<dt>Line-height</dt>
+			<dd>
+				글자의 줄 높이<br>
+				글자 크기의 배수, 또는 고정 단위(px)
+				가독성을 위해, 고정 단위는 폰트 사이즈보다 크게 지정할 것!
+			</dd>
+		</dl>
+		
+		<p><em> html화 작업 완료, css부분이 많이 부족해 생활코딩에서 다시 배울 예정<p>
+			<a href="./2107.html"> 뒤로</a>
+	<body>
