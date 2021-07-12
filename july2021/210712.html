@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>TIL 210712</title>
+		<link href="../tilstyle.css" rel="stylesheet"> 
+	<body>
+		<h1>Today I Learned(21.07.11)</h1>
+		<h2>선택자의 개념 심화</h2>
+		<dl id="main list">
+			<dt>CSS의 선택자</dt>
+			<dd>
+				<dl id="sub list">
+					<dt>태그 선택자</dt>
+						<dd>
+							<span class="css">li{color:red;}</span><br>
+							:모든 <span class="htmltags">&lt;li&gt;</span>태그에 적용
+						</dd>
+					<dt>아이디 선택자</dt>
+						<dd>
+							id 속성값이 들어간 태그에만 적용<br>
+							한 id 속성값은 하나의 태그만을 가리킴(클래스와 구분할 것)
+							<span class="css">#select{color:red;}</span><br>
+							<span class="htmltags">&lt;p id="select"&gt; contents &lt;/p&gt;</span><br>
+							: contents가 빨갛게 표시
+							
+						</dd>
+					<dt>클래스 선택자</dt>
+						<dd>
+							class 속성값이 들어간 태그에만 적용<br>
+							class는 대상을 관리하기 쉽도록 그룹 지정한 것<br>
+							따라서, id와 달리 여러 태그를 가리킬 수 있음<br>
+							<span class="htmltags">&lt;span class="css"&gt;li{color:red;}&lt;/span&gt;</span><br>
+							<span class="css">.css{ font-family:'Ubuntu Mono', monospace; color:#39FF74;background-color:#000000;}								</span><br>
+							: 이 사이트에 적용된 클래스의 예
+							
+							
+						</dd>
+				</dl>
+				
+			</dd>
+			
+			
+			
+		</dl>
+		
+		<p><em>설명 중 등장하는 코드에 대한 클래스 만듦,<br>8월 TIL의 레이아웃 만들기 시작</em><p>
+			<a href="./2107.html"> 뒤로</a>
+	<body>
