@@ -2,7 +2,7 @@
 @import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');/*vt323, 작은 글씨에서는 안 예쁨*/
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');/*ubuntu mono*/
-
+html{border: 1px solid grey;}
 h1{font-size:20px;}
 h2{font-size:18px;}
 body{font-size:16px;font-family:'Jeju Myeongjo', serif; line-height:1.5;}
