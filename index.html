@@ -1,17 +1,44 @@
+<!DOCTYPE html>
 <html lang="ko">
 	<head>
 		<title>TIL</title>
 		
 		<link href="./tilstyle.css" rel="stylesheet">
+		<style>
+			.container{
+				display:flex;
+				width:100%;
+				
+			}
+			
+			
+			
+			.item{
+				border:1px solid grey;
+				cursor:pointer;
+				font-size:20px;
+				width:100%;
+			}
+		</style>
 	</head>
 	<body>
-		<h1>Today I learned</h1>
-		<a href="https://jeewonki.github.io/TIL/">https://jeewonki.github.io/TIL/</a>
-		<ol>
-			<li>
-				<a href="./july2021/2107.html">2021 July</a>
-			</li>
-		</ol>
+		<div id="titlebar" onclick="location.href='https://jeewonki.github.io/TIL/'">
+			<h1>Today I learned</h1>
+			<h2>https://jeewonki.github.io/TIL/</h2>
+		</div>
 		
+		
+		<div style="margin:150px; text-align:center;">
+			<div class="container">
+				<div class="item" onclick="location.href='./july2021/2107.html'">
+					2021 July
+				</div>
+			</div>
+			
+			
+			<div style=height:500px;></div>
+		
+			
+		</div>
 	</body>
 </html>

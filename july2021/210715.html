@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title>TIL 210713</title>
+		<link href="../tilstyle.css" rel="stylesheet"> 
+		<style>
+			.example{border:1px solid grey;}
+		</style>
+	<body>
+		<h1>Today I Learned(21.07.13)</h1>
+		<h2>레이아웃 2</h2>
+		<dl id="main list">
+			<dt>position</dt>
+			<dd>
+				<ol>
+					<li>
+						<span class="css">position:static;</span><br>
+						포지션의 기본값, 포지션을 지정해 주지 않았을 때의 원래 위치
+					</li>
+					<li>
+						<span class="css">position:relative;</span><br>
+						<span class="css">static</span>을 기준으로 위치 지정<br>
+						<span class="css">left</span>,<span class="css">top</span> 등 offset 스타일 지정
+					</li>
+					<li>
+						<span class="css">position:absolute;</span><br>
+						위치가 지정되지 않으면 <span class="css">static</span> 이 기본값<br>
+						부모 태그 중 가장 먼저 포지션이 지정된 부모 태그를 기준으로 지정
+					</li>
+					<li>
+						<span class="css">position:fixed;</span><br>
+						스크롤과는 무관하게 자신의 화면에 고정<br>
+						고정된 형태의 UI를 만들 수 있음
+					</li>
+				</ol>
+			</dd>
+			<dt>flex</dt>
+			<dd>
+				list처럼, container의 역할을 할 클래스와 item의 역할을 할 클래스 지정<br>
+				container에 <span class="css">display:flex;</span>적용
+				<span class="css">flex-direction:row/column;</span>으로 가로/세로 지정
+			</dd>
+			
+		</dl>
+		
+		<p><em></em><p>
+			<a href="./2107.html"> 뒤로</a>
+	<body>
