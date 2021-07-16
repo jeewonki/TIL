@@ -32,3 +32,33 @@ body{font-size:16px;font-family:'Jeju Myeongjo', serif; line-height:1.5;}
 	width:80%;
 	padding-top:150px;
 }
+
+/*Holy grail Layout 2107*/
+
+
+.container{
+	display:flex;
+	flex-direction:column;
+	border: 1px grey solid;
+}
+section{
+	
+	display:flex;
+	flex-direction:row;
+	border: 1px grey solid;
+	
+}
+nav{
+	width:170px;
+	flex-shrink:0;
+}
+main{
+	
+	border: 1px grey solid;
+	flex-grow:1;
+	flex-shrink:1;
+}
+ad{
+	width:75px;
+	flex-shrink:0;
+}

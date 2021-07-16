@@ -1,0 +1,126 @@
+<html lang="ko">
+	<head>
+		<title>TIL 2021 July</title>
+		
+		<link href="../tilstyle.css" rel="stylesheet">
+	</head>
+	<body>
+		<div class="container">
+			<header>
+				<h1>Today I learned</h1>
+			</header>
+			<section>
+				<nav>
+					<ul>
+						<li class="currentmonth">
+							July 2021
+							<ul>
+								<li>
+									<a href="./210706.html">2021.07.06</a>
+								</li>
+					
+								<li>
+									<a href="./210707.html">2021.07.07</a>
+								</li>
+			
+								<li>
+									<a href="./210708.html">2021.07.08</a>
+								</li>
+					
+								<li>
+									<a href="./210710.html">2021.07.10</a>
+								</li>
+				
+								<li>
+									<a href="./210711.html">2021.07.11</a>
+								</li>
+								<li>
+									<a href="./210712.html">2021.07.12</a>
+								</li>
+								<li>
+									<a href="./210713.html">2021.07.13</a>
+								</li>
+								<li>
+									<a href="./210715.html">2021.07.15</a>
+								</li>
+								<li>
+									<a href="./210716.html">2021.07.16</a>
+								</li>
+			
+							</ul>
+						</li>
+						<li>
+							August 2021
+						</li>
+					</ul>
+				</nav>
+				<main>
+					<h2>2021.07.16</h2>
+					<dl>
+						<dt>
+							flex-grow
+						</dt>
+						<dd>
+							<p>
+								<span class="css">flex-basis:Npx;</span><br>
+								flex에서 축 방향으로의 길이,<br>
+								column일 때는 세로, row일 때는 가로
+							</p>
+							<p>
+								<span class="css">flex-grow:0;</span><br>
+								각각의 item 들이 인라인 요소처럼, 내용만큼의 공간 차지
+							</p>
+							<p>
+								<span class="css">flex-grow:N;</span><br>
+								container의 공간을 item들이 나누어 가짐<br>
+								N에 비례하여 큰 공간을 차지함
+								
+							</p>
+						</dd>
+						<dt>
+							flex-shrink
+						</dt>
+						<dd>
+							<p>
+								<span class="css">flex-shrink:0;</span><br>
+								container가 줄어들어도, 길이가 변하지 않음
+							</p>
+							<p>
+								<span class="css">flex-shrink:N;</span><br>
+								container가 줄어들면 N에 비례해서 길이가 같이 줄어듦
+							</p>
+						</dd>
+						<dt>
+							Holy Grail Layout
+						</dt>
+						<dd>
+							이 문서의 레이아웃<br>
+							<span class="htmltags">&lt;container&gt;</span><br>
+							-<span class="htmltags">&lt;header&gt;</span><br>
+							-<span class="htmltags">&lt;section&gt;</span><br>
+							--<span class="htmltags">&lt;nav&gt;</span><br>
+							--<span class="htmltags">&lt;main&gt;</span><br>
+							--<span class="htmltags">&lt;AD&gt;</span><br>
+							-<span class="htmltags">&lt;footer&gt;</span><br>
+							
+							container에 <span class="css">display:flex;</span>을 적용<br>
+							<img src="./images/flex 1.png" width=300px><br>
+							container에 <span class="css">flex-direction:column;</span>을 적용하고<br> 
+							section에 <span class="css">flex-direction:row;</span>를 적용<br>
+							<img src="./images/flex 2.png" width=300px><br>
+							<span class="htmltags">&lt;nav&gt;</span>와 <span class="htmltags">&lt;AD&gt;</span>는 고정이므로, <span class="css">flex-shrink:0;</span> 적용
+							
+						</dd>
+					</dl>
+					<p>오늘부터 만드는 문서는 Holy Grail Layout을 따름</p>
+					
+				</main>
+				<ad>
+				</ad>
+			</section>
+			<footer>
+				<a href="./2107.html">뒤로</a>
+			</footer>
+		</div>
+	</body>
+</html>
