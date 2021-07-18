@@ -39,13 +39,20 @@ body{font-size:16px;font-family:'Jeju Myeongjo', serif; line-height:1.5;}
 .container{
 	display:flex;
 	flex-direction:column;
-	border: 1px grey solid;
+	
 }
+header{
+	text-align:center;	
+	
+	background-color:powderblue;
+}
+
 section{
 	
 	display:flex;
 	flex-direction:row;
-	border: 1px grey solid;
+	
+	
 	
 }
 nav{
@@ -54,7 +61,7 @@ nav{
 }
 main{
 	
-	border: 1px grey solid;
+	background-color:#F5F5F5;
 	flex-grow:1;
 	flex-shrink:1;
 }
@@ -62,3 +69,12 @@ ad{
 	width:75px;
 	flex-shrink:0;
 }
+footer{
+	background-color:#D5D5D5;
+	text-align:center;	
+}
+@media(max-width:700px)
+				{
+					nav, ad{display:none};
+					
+				}
