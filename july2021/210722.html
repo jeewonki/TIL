@@ -1,6 +1,6 @@
 <html lang="ko">
 	<head>
-		<title>TIL 210720</title>
+		<title>TIL 210722</title>
 		
 		<link href="../tilstyle.css" rel="stylesheet">
 		
@@ -64,6 +64,9 @@
 								<li>
 									<a href="./210720.html">2021.07.20</a>
 								</li>
+								<li>
+									<a href="./210722.html">2021.07.22</a>
+								</li>
 			
 							</ul>
 						
@@ -71,41 +74,49 @@
 					
 				</nav>
 				<main>
-					<h2>2021.07.20</h2>
-					<h3>CSS Grid</h3>
+					<h2>2021.07.22</h2>
+					<h3>javaScript</h3>
 					<p>
-						flex와 같이 container와 item으로 나뉜다.<br>
-						<span class="css">display:grid;</span>스타일을 추가한다.<br>
-						item은 container안에 2차원으로 배열된다.<br>
-						몇 줄로 할 것인지는<br>
-						<span class="css">grid_template_columns</span> 스타일을 통해 바꿀 수 있다.<br>
-						각 줄/칸의 넓이로 나눌 수 있으며, 그 단위는 px이나 fr(분수)이다.<br>
+						기본적으로, 웹브라우저를 제어하는 언어<br>
+						node.jS, Google Apps Script등 활용되는 분야는 많음<br>
+						오늘부터는 언어 자체를 배우는 데에만 집중
+					</p>
+					<h3>실습 환경</h3>
+					<p>
+						html 문서의 <span class="htmltags">&lt;body&gt;</span> 태그 안에,
+						<span class="htmltags">&lt;script&gt;</span> 태그 삽입
+					</p>
+					<p>
+						<span class="htmltags">&lt;script&gt;<br>
+							alert('Hello, World!');<br>
+							&lt;/script&gt;<br>
+						</span>
+						<a href="./examples/210722_ex1.html">실행 결과</a>
+						
+					<h3>숫자와 문자열</h3>
+					<p>
+						아무 기호도 붙지 않은 숫자는 숫자로 인식<br>
+						연산자는 다른 프로그래밍 언어와 동일<br>
 						
 						
 					</p>
 					<p>
-						ex)
-						<span class="css">grid_template_columns:100px 1fr</span>의 결과
+						math 함수들<br>
+						<span class="htmltags">
+							math.pow(x,y);//x의 y승<br>
+							math.round();//반올림<br>
+							math.celi();//올림<br>
+							math.floor();//버림<br>
+							math.sqrt();//제곱근<br>
+							math.random();//0과 1 사이의 랜덤인 수
+							
+						</span>
 					</p>
-					<div id="grid">
-						<div>
-							one
-						</div>
-						<div>
-							two
-						</div>
-						<div>
-							three
-						</div>
-						<div>
-							four
-						</div>
-						<div>
-							five
-						</div>
-						
-					</div>
+					<p>
+						문자열은 ''와 "" 모두 사용 가능하며, 파이썬처럼 +를 사용해 문자열을 붙일 수 있음
+					</p>
 				</main>
+				
 				<ad>
 				</ad>
 			</section>
