@@ -1,0 +1,10 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poiret+One&display=swap');
+body{ margin:0px;}
+#wrapper{margin:0px;border:1px solid grey;}
+h1{font-family:'Poiret One', cursive;  margin:5px;font-size:25px;}
+#calendar{width:75%; padding-bottom:75%; border:1px solid grey;margin-left:13.5%;}
+#headerlink{margin-top:0px; font-size:12px; text-decoration:none; color:black;}
+header{ margin-bottom:10px; border:1px solid grey;}
+
