@@ -1,28 +1,48 @@
 
 
 @import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poiret+One&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
 body{ margin:0px;}
 #wrapper{margin-top:0px;}
 h1{font-family:'Poiret One', cursive;  margin:5px;font-size:25px;}
-section{text-align:center;}
+section{
+    font-family:'Jeju Myeongjo', serif;
+    
+
+
+}
 
 #calendar{
-	width:75%; 
-	padding-bottom:50%;
-	border:1px solid grey;
-	margin-left:13.5%;
+	width:75vw; 
+	
+	
+	margin-left:13.5vw;
 	display:grid;
-	grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-	
-	
+    grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-auto-rows:10vw;
+	grid-gap:5px;
+    align-items:center;
+    background-color:#efefef;
 }
 
 
 .dates{
-	border:1px solid grey;
 	
+    padding-top:2vw;
+    padding-bottom:2vw;
+    font-size:4.5vw;
+   
+    
+    
+    
 }
 
+.dates>a{
+    text-decoration:none;
+    color:black;
+   
+}
 
 
 #headerlink{margin-top:0px; font-size:12px; text-decoration:none; color:black;}
