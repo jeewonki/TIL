@@ -89,6 +89,14 @@ a{
 	text-align:center;
 }
 
+.codeZone{
+	font-family:'Ubuntu Mono', monospace; color:#CCFF00; background-color:#000000;
+	border:3px solid grey;
+	margin-left:30px;
+	margin-right:40px;
+	
+}
+
 
 #headerlink{margin-top:0px; font-size:12px; text-decoration:none; color:black;}
 header{margin-top:0px; margin-bottom:10px; padding:15px;color:white; background-color:black; cursor:pointer; text-align:center;}

@@ -18,10 +18,35 @@
 	
 				
 				<main>
-					<h3>2021.08.02</h3>
+					<h2>2021.08.02</h2>
+					<h3>DOM(Document Object Model)</h3>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam, alias quas non animi necessitatibus iste eligendi quidem fugiat odio reprehenderit perferendis, facere voluptatem earum quis officiis, ab unde ad commodi!
+						DOM의 전반적인 작업 과정: 제어 대상인 객체를 찾고, 그 대상의 속성을 변경하는 작업<br>
+						브라우저는 HTML 문서들을 바탕으로 객체를 생성<br>
+						
 					</p>
+					
+					<h3>HTMLElement/HTMLCollection</h3>
+					
+						<div class="codeZone">
+							document.getElementById();//단수개의 엘리먼트<br><br>
+							document.getElementsByTagName;//복수개의 엘리먼트
+						</div>
+					<p>
+						단수개의 엘리먼트를 반환하는 함수: HTMLElement객체 반환<br>
+						복수개의 엘리먼트를 반환하는 함수: HTMLCollection객체 반환
+					</p>
+					
+					<h3>HTMLElement의 자식 객체</h3>
+					<div class="codeZone">
+							console.log(target.constructor.name);//객체의 이름을 표시
+					</div>
+					<p>
+						태그의 종류의 따라,<br>
+						HTMLLIElement, HTMLAnchorElement, HTMLInputElement 등 여러 자식 객체로 나뉨<br>
+						a 태그에만 href/target 속성이 있듯이, 각각의 객체들마다 가진 필드와 메소드가 다르다
+					</p>
+					
 				</main>
             
            
