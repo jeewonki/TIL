@@ -83,6 +83,11 @@ a{
     color:black;
    
 }
+#foot{
+	color:white;
+	background-color:grey;
+	text-align:center;
+}
 
 
 #headerlink{margin-top:0px; font-size:12px; text-decoration:none; color:black;}
