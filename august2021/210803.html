@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title >TIL 2021 August</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./auguststyle.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header onclick='window.open("../index.html")' cursor=pointer;>
+				<h1>Jeewon, He Learned</h1>
+				 <a style="color:white;">Articles </a>     /     
+                <a style="color:white;">TIL </a>
+
+
+			</header>
+			<section>
+	
+				
+				<main>
+					<h2>2021.08.03</h2>
+					<h3>HTMLCollection객체</h3>
+						<div class="codeZone">
+							var lis=document.getElementsByTagName("li");<br>
+							lis[1].parentNode.removeChild(lis[1]);
+							
+						</div>
+					<p>
+						HTMLCollection 객체는 트리 형태를 띄고 있으며, 부모 노드에서 자식 노드를 제거할 수 있다. 자식 노드를 제거하거나 추가하기 위해서 그 인접 노드에 접근할 필요가 없다.
+						
+					</p>
+					<div class="codeZone">
+						console.group('before')<br>
+						console.groupEnd();
+						</div>
+					<p>
+						이 사이에서 일어나는 모든 console.log()를 그룹핑해서 볼 수 있다
+					</p>
+					
+					
+					
+				</main>
+            
+           
+				
+			
+			
+			</section>
+		</div>
+	</body>
+</html>
