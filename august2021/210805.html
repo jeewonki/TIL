@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title >TIL 2021 August</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./auguststyle.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header onclick='window.open("../index.html")' cursor=pointer;>
+				<h1>Jeewon, He Learned</h1>
+				 <a style="color:white;">Articles </a>     /     
+                <a style="color:white;">TIL </a>
+
+
+			</header>
+			<section>
+	
+				
+				<main>
+					<h2>2021.08.05</h2>
+					<h3>속성 API</h3>
+					
+						<div class="codeZone">
+							Element.getAttribute(name);<br>
+							Element.setAttribute(name, value);<br>
+							Element.hasAttribute(name);<br>
+							Element.removeAttribute(name);<br>
+							
+						</div>
+					<p>
+						HTML 태그의 속성(Attribute)를 제어한다<br>
+						DOM에서 속성에 대응하는 개념에는 프로퍼티가 있으며, 모든 HTML 태그(Element)의 속성은 프로퍼티를 통해 제어할 수 있다.<br>
+						(tag-Element, Attribute-property)<br>
+						자바스크립트의 프로퍼티와 HTML의 속성은 다를 수 있다
+						
+						
+					</p>
+					
+					<h3>Event-Driven Programming</h3>
+						
+					<p>
+						Event target: 이벤트가 발생하는 대상(ex)버튼)<br>
+						Event type: 동작의 종류(ex) 클릭)<br>
+						Event handler: 실행되는 코드
+						
+					</p>
+					<h3>인라인 방식으로 이벤트 등록</h3>
+						<div class="codeZone">
+							&lt;input type="button onclick=alert("Hello world"+this.value);" value="button"&gt;<br>
+							
+							
+						</div>
+					<p>
+						여기에서 this 객체를 사용하면 자기 참조가 된다.
+						
+					</p>
+					
+					
+					
+					
+				</main>
+            
+           
+				
+			
+			
+			</section>
+		</div>
+	</body>
+</html>

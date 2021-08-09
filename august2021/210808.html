@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title >TIL 2021 August</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./auguststyle.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header onclick='window.open("../index.html")' cursor=pointer;>
+				<h1>Jeewon, He Learned</h1>
+				 <a style="color:white;">Articles </a>     /     
+                <a style="color:white;">TIL </a>
+
+
+			</header>
+			<section>
+	
+				
+				<main>
+					<h2>2021.08.08</h2>
+					<h3>프로퍼티 리스너</h3>
+					
+						<div class="codeZone">
+							(html)<br>
+							&lt;input type="button" id="mybutton" value="button"&gt;<br>
+							
+							(js)<br>
+							var button=document.getElementById("mybutton");<br>
+							button.onclick=function(event){...}<br>
+							//event.target.value의 값은 'button'
+							
+						</div>
+					<p>
+						이벤트 대상이 되는 객체의 프로퍼티로 이벤트를 등록<br>
+						엘리먼트 객체의 프로퍼티에 특정 함수를 적용<br>
+						event 객체에는 이벤트가 시작된 시점에 대한 여러 가지 정보가 담겨 있음
+						
+					</p>
+					
+					<h3>addEventListerner()</h3>
+						<div class="codeZone">
+							Element.addEventListener('click', function(event){...})
+							
+						</div>
+					<p>
+						프로퍼티 리스너와는 다르게, 하나의 함수를 여러 오브젝트에 적용, 하나의 대상에 여러 리스너 적용 가능
+						
+					</p>
+					
+					
+					
+				</main>
+            
+           
+				
+			
+			
+			</section>
+		</div>
+	</body>
+</html>
