@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title >TIL 2021 August</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./auguststyle.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header onclick='window.open("../index.html")' cursor=pointer;>
+				<h1>Jeewon, He Learned</h1>
+				 <a style="color:white;">Articles </a>     /     
+                <a style="color:white;">TIL </a>
+
+
+			</header>
+			<section>
+	
+				
+				<main>
+					<h2>2021.08.15</h2>
+					<h3>최신 CSS 기능</h3>
+					<h3> Supports</h3>
+						<div class="codeZone">
+							@supports(display:grid){}
+							<br><br>
+							@supports not(display:grid){}
+							
+							
+						</div>
+					<p>
+						어떤 css 속성이 브라우저에서 지원될 때, 혹은 지원되지 않을 때만 선택적으로 실행된다
+						
+					</p>
+					
+					<h3>스크롤 스냅</h3>
+						<div class="codeZone">
+							scroll-snap-type:y mandatory;//부모 태그에 추가<br>
+							scroll-snap-align:center;//자식 태그에 추가<br>
+						</div>
+					<p>
+						자식 태그의 위쪽에 스크롤이 붙는다. 모바일 웹에서, 한 쪽씩 넘기는 UI를 구현할 때 사용할 수 있음
+						
+					</p>
+					<h3>is pseudo selector</h3>
+						<div class="codeZone">
+							header button,<br>
+							nav button,<br>
+							form button{<br>}<br><br>
+							:is(header, nav, form) button{<br>}
+						</div>
+					<p>
+						여러 개의 선택자를 선택할 때, 공통되는 부분을 묶을 수 있다.<br>
+						
+						
+					</p>
+					<h3>position:sticky</h3>
+						<div class="codeZone">
+							position:sticky
+						</div>
+					<p>
+						유저 스크롤을 따라다니는 헤더를 만들 수 있다<br>
+						원하는 요소에 position:sticky 속성을 추가하고,<br>
+						정의된 높이가 있는 컨테이너 앞에 그 요소를 넣어주면 된다
+						
+						
+					</p>
+					<h3>aspect-ratio</h3>
+						<div class="codeZone">
+							aspect-ratio:16:9;
+						</div>
+					<p>
+						요소의 가로와 세로 비율을 지정할 수 있다
+						
+						
+					</p>
+					
+					
+					
+				</main>
+            
+           
+				
+			
+			
+			</section>
+		</div>
+	</body>
+</html>
