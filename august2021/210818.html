@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<title >TIL 2021 August</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link href="./auguststyle.css" rel="stylesheet">
+	</head>
+	<body>
+		<div id="wrapper">
+			<header onclick='window.open("../index.html")' cursor=pointer;>
+				<h1>Jeewon, He Learned</h1>
+				 <a style="color:white;">Articles </a>     /     
+                <a style="color:white;">TIL </a>
+
+
+			</header>
+			<section>
+	
+				
+				<main>
+					<h2>2021.08.18</h2>
+					<h3>자바스크립트의 변수 선언</h3>
+					<p>
+						이전에는 자바스크립트의 변수 선언이 var로만 가능했지만, ES6부터 let과 const가 추가됨<br>
+						세 가지 방법은 다음과 같은 차이가 있음
+					</p>
+					<h3>변수의 중복 선언</h3>
+						<div class="codeZone">
+							var variable=1;<br>
+							console.log(variable);//1<br>
+							var variable=2;<br>
+							console.log(variable);//2<br>
+							
+						</div>
+						<div class="codeZone">
+							let variable=1;<br>
+							console.log(variable);//1<br>
+							let variable=2;<br>//Error
+							
+						</div>
+					<p>
+						var는 중복으로 선언이 가능하고, 마지막으로 할당된 값이 변수에 저장된다.<br>
+						초기화 없이 중복선언하면 선언 자체가 무시된다.<br>
+						var가 아닌 let과 const는 중복선언하면 에러가 발생하기 때문에, 중복선언으로 인한 혼동이 발생할 가능성이 적다.
+
+					</p>
+					
+					
+					<h3>재할당</h3>
+						
+					<p>
+						var과 let은 값의 재할당이 가능하고, const는 불가능하다.<br>
+						const는 선언할 때 반드시 초기화해 주어야 한다.
+						
+						
+					</p>
+					<h3>스코프</h3>
+					<p>
+						var의 스코프는 function-level이다.<br>
+						let과 const의 스코프는 block-level이다.<br>
+
+						블럭 안에서 선언된 변수는 그 블럭 안에서만 실행되고, 블럭 밖에서 선언된 변수는 전역 변수가 된다.<br>
+						다만, var의 경우는 if, for등의 코드 블럭에는 해당되지 않고, 함수에만 해당된다.
+
+
+
+
+					</p>
+					<h3>호이스팅</h3>
+					<p>
+						자바스크립트의 변수는 모두 코드가 실행되기 전에 미리 할당되고, 이를 호이스팅이라고 한다.<br>
+						따라서 var의 경우 뒤에서 선언된 변수가 앞에서 참조되어도, undefined의 형태로 참조되고 에러가 발생하지 않는다.<br>
+
+						let, const에서도 호이스팅이 발생하지만, 선언되기 전에 참조되면 에러가 발생한다.
+
+					</p>
+					<h3>window객체의 프로퍼티인가?
+					</h3>
+					<p>
+						var는 window객체의 프로퍼티가 맞지만, let/const는 아니다.
+
+					</p>
+					<h3>모던 자바스크립트에서는, var는 거의 사용되지 않는다!
+						</h3>
+					
+					
+					
+					
+				</main>
+            
+           
+				
+			
+			
+			</section>
+		</div>
+	</body>
+</html>
