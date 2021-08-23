@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');/*ubuntu mono*/
+
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Poiret+One&display=swap');
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+
+body{ margin:0px;}
+#wrapper{
+    margin-top:0px;
+    
+}
+h1{font-family:'Poiret One', cursive;  margin:10px;font-size:30px; display:block;}
+
+header{display: flex;}
+
+
+
+h2{text-align:center; position:sticky;}
+
+
+section{
+    display:flex;
+    margin:auto;
+}
+
+main{
+    
+    
+}
+
+
+
+article{
+    border:1px solid grey;
+    
+
+}
+
+
+nav{
+    
+    
+    
+}
+
+
+
+
+section{
+    font-family:'Jeju Myeongjo', serif;
+	flex-grow:1;
+    
+
+
+}
+
+
+main{
+	margin:auto;
+	width:1080px;
+}
+
+
+.main
+{
+	margin:auto;
+}
+
+@media(max-width:800px)
+{
+    
+    
+}
+
+
+
+
+a{
+    text-decoration:none;
+    color:black;
+   
+}
+footer{
+	color:white;
+	background-color:grey;
+	text-align:center;
+}
+
+.codeZone{
+	font-family:'Ubuntu Mono', monospace; color:#CCFF00; background-color:#000000;
+	border:3px solid grey;
+	margin-left:30px;
+	margin-right:40px;
+	
+}
+
+
+#headerlink{margin-top:0px; font-size:12px; text-decoration:none; color:black;}
+header{margin-top:0px; margin-bottom:10px; padding:15px;color:white; background-color:black;  text-align:left;}
+.menu{
+    list-style:none;
+    font-family:'Jeju Myeongjo', serif;
+    font-size:20px;
+    
+    }
+.menu > li{ float:left; margin:0 20px 0 20px;}
