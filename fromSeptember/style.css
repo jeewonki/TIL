@@ -19,12 +19,15 @@ h2{text-align:center; position:sticky;}
 
 section{
     display:flex;
-    margin:auto;
+    margin-left:100px;
+    margin-right:100px;
+   
 }
 
 main{
+    margin:0;
     
-    
+    flex-grow:1;
 }
 
 
@@ -37,7 +40,9 @@ article{
 
 
 nav{
-    
+    text-align:left;
+    border:1px solid grey;
+    flex-grow:1;
     
     
 }
@@ -47,7 +52,7 @@ nav{
 
 section{
     font-family:'Jeju Myeongjo', serif;
-	flex-grow:1;
+	
     
 
 
